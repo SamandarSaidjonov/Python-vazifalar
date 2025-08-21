@@ -1,0 +1,28 @@
+#Savollar
+# 1-vazifa. print yordamida ekranga "Salom, Python!" matnini chiqaring.
+# 2-vazifa. O‘zgaruvchilarni ishlatib, ism va yoshni bir qatorda chiqaruvchi dastur yozing.
+# 3-vazifa. f-string usulidan foydalanib, ism va yoshni formatlangan ko‘rinishda chiqaring.
+# 4-vazifa. Ikki ta satrni qo‘shib (+ operatori yordamida) bitta natija qilib chiqaring.
+# 5-vazifa. \n belgisidan foydalanib, matnni bir necha qatorga bo‘lib chiqaring.
+
+#Javoblar 
+#1-savol javobi.
+print("Salom, Python!")
+
+#2-savol javobi.
+name = "Samandar"
+age = "21"
+print("Mening ismim ", name ," va yoshim ", age, " da")
+
+#3-savol javobi.
+name = "Samandar"
+age = "21"
+print("Mening ismim " f"{name}. {age} yoshdaman")
+
+#4-savol javobi.
+name = "Sameer"
+age = "21"
+print("Mening ismim " + name + " va yoshim "+ age + " da")
+
+#5-savol javobi.
+print("Ma'lumotlarni bir nechta qatordan \nchiqarish uchun slash n dan foydalanish kerak.\nBu haqida kanalda yozilgan edi my friend.\nBollar biz yutamiz!")
